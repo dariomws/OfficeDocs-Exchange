@@ -41,49 +41,28 @@ Mail users are similar to mail contacts. Both have external email addresses and 
 
 1. In the EAC, navigate to **Recipients** \> **Contacts** \> **New** \> **Mail user**.
 
-2. On the **New mail user** page, in the **\* Alias** box, type the alias for the mail user. The alias can't exceed 64 characters and must be unique in the forest. This box is required.
-
-3. Do one of the following to specify the email address type for the mail user:
-
-   - To specify an SMTP email address for the mail user's external email address, click **SMTP**.
-
-   > [!NOTE]
-   > SMTP addresses are validated for correct formatting. If your entry is inconsistent with the SMTP format, an error message will be displayed when you click **Save** to create the mail user.
-
-   - To specify a custom address type, click the option button and then type the custom address type. For example, you can specify an X.500, GroupWise, or Lotus Notes address.
-
-4. In the **\* External email address** box, type the mail user's external email address. Email sent to this mail user is forwarded to this email address. This box is required.
-
-5. Select one of the following options:
-
-   - **Existing user**: Select to mail-enable an existing user.
-
-   Click **Browse** to open the **Select User - Entire Forest** dialog box. This dialog box displays a list of user accounts in the organization that aren't mail-enabled or don't have mailboxes. Select the user account you want to mail-enable, and then click **OK**. If you select this option, you don't have to provide user account information because this information already exists in Active Directory.
-
-   - **New user**: Select to create a new user account in Active Directory and mail-enable the user. If you select this option, you'll have to provide the required user account information.
-
-6. If you selected **New User** in Step 5, complete the following boxes on the **New mail user** page. Otherwise skip to Step 7.
+2. On the **New mail user** page, complete the following boxes.
 
    - **First name**: Use this box to type the first name of the mail user.
 
    - **Initials**: Use this box to type the initials of the mail user.
 
    - **Last name**: Use this box to type the last name of the mail user.
-
+   
    - **\* Display name**: Use this box to type a display name for the user. This is the name that's listed in the contacts list in the EAC and in your organization's address book. By default, this box is populated with the names you enter in the **First name**, **Initials**, and **Last name** boxes. If you didn't use those boxes, you must still type a name in this box because it's required. The name can't exceed 64 characters.
+   
+   - **\* Alias**: Use this box to type the alias for the mail user. The alias can't exceed 64 characters and must be unique in the forest. This box is required.
+
+   - **\* External email address**: Use this box to type the mail user's external email address. Email sent to this mail user is forwarded to this email address.
 
    - **\* User ID**: Use this box to type the name that the mail user will use to log on to the domain. The user logon name consists of a username on the left side of the at (@) symbol and a suffix on the right side. Typically, the suffix is the domain name the user account resides in.
 
    - **\* New Password**: Use this box to type the password that the mail user must use to log on to the domain.
 
    > [!NOTE]
-   > Make sure that the password you supply complies with the password length, complexity, and history requirements of the domain you're creating the user account in.
+   > Make sure that the password you supply complies with the password length, complexity, and history requirements of Azure Active Directory. For more information, see [Password policies that only apply to cloud user accounts](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 
    - **\* Confirm password**: Use this box to confirm the password that you typed in the **Password** box.
-
-   - **Require password change on next logon**: Select this check box if you want mail users to reset the password when they first log on to the domain.
-
-   If you select this check box, at first logon, the new mail user will be prompted with a dialog box in which to change the password. The mail user won't be allowed to perform any tasks until the password is changed successfully.
 
 7. When you've finished, click **Save** to create the mail user.
 
