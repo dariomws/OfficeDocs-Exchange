@@ -53,7 +53,7 @@ Mail users are similar to mail contacts. Both have external email addresses and 
    
    - **\* Alias**: Use this box to type the alias for the mail user. The alias can't exceed 64 characters and must be unique in the forest. This box is required.
 
-- **External email address**: Use this box to type the mail user's external email address. Email sent to this mail user is forwarded to this email address.
+   - **External email address**: Use this box to type the mail user's external email address. Email sent to this mail user is forwarded to this email address.
 
    - **\* User ID**: Use this box to type the name that the mail user will use to log on to the domain. The user logon name consists of a username on the left side of the at (@) symbol and a suffix on the right side. Typically, the suffix is the domain name the user account resides in.
 
