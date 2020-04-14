@@ -43,26 +43,26 @@ Mail users are similar to mail contacts. Both have external email addresses and 
 
 2. On the **New mail user** page, complete the following boxes.
 
-- **First name**: Use this box to type the first name of the mail user.
+   - **First name**: Use this box to type the first name of the mail user.
 
-- **Initials**: Use this box to type the initials of the mail user.
+   - **Initials**: Use this box to type the initials of the mail user.
 
-- **Last name**: Use this box to type the last name of the mail user.
+   - **Last name**: Use this box to type the last name of the mail user.
    
-- **Display name**: Use this box to type a display name for the user. This is the name that's listed in the contacts list in the EAC and in your organization's address book. By default, this box is populated with the names you enter in the **First name**, **Initials**, and **Last name** boxes. If you didn't use those boxes, you must still type a name in this box because it's required. The name can't exceed 64 characters.
+   - **\* Display name**: Use this box to type a display name for the user. This is the name that's listed in the contacts list in the EAC and in your organization's address book. By default, this box is populated with the names you enter in the **First name**, **Initials**, and **Last name** boxes. If you didn't use those boxes, you must still type a name in this box because it's required. The name can't exceed 64 characters.
    
-- **Alias**: Use this box to type the alias for the mail user. The alias can't exceed 64 characters and must be unique in the forest. This box is required.
+   - **\* Alias**: Use this box to type the alias for the mail user. The alias can't exceed 64 characters and must be unique in the forest. This box is required.
 
 - **External email address**: Use this box to type the mail user's external email address. Email sent to this mail user is forwarded to this email address.
 
-- **User ID**: Use this box to type the name that the mail user will use to log on to the domain. The user logon name consists of a username on the left side of the at (@) symbol and a suffix on the right side. Typically, the suffix is the domain name the user account resides in.
+   - **\* User ID**: Use this box to type the name that the mail user will use to log on to the domain. The user logon name consists of a username on the left side of the at (@) symbol and a suffix on the right side. Typically, the suffix is the domain name the user account resides in.
 
-- **New Password**: Use this box to type the password that the mail user must use to log on to the domain.
+   - **\* New Password**: Use this box to type the password that the mail user must use to log on to the domain.
 
-> [!NOTE]
-> Make sure that the password you supply complies with the password length, complexity, and history requirements of Azure Active Directory. For more information, see [Password policies that only apply to cloud user accounts](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
+   > [!NOTE]
+   > Make sure that the password you supply complies with the password length, complexity, and history requirements of Azure Active Directory. For more information, see [Password policies that only apply to cloud user accounts](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 
-- **Confirm password**: Use this box to confirm the password that you typed in the **Password** box.
+   - **\* Confirm password**: Use this box to confirm the password that you typed in the **Password** box.
 
 3. When you've finished, click **Save** to create the mail user.
 
