@@ -22,7 +22,7 @@ To learn more about public folders, see [Public folders](public-folders.md).
 
 ## FAQ about public folder migration
 
-This section contains frequently asked questions about public folder migration. For more information, see [Use batch migration to migrate Exchange 2010 public folders to Exchange 2016](batch-migration-from-previous-versions.md), [Use batch migration to migrate legacy public folders to Office 365 and Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders), or [Use batch migration to migrate Exchange Server public folders to Exchange Online](migrate-to-exchange-online.md).
+This section contains frequently asked questions about public folder migration. For more information, see [Use batch migration to migrate Exchange 2010 public folders to Exchange 2016](batch-migration-from-previous-versions.md), [Use batch migration to migrate legacy public folders to Office 365 and Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders), [Use batch migration to migrate Exchange Server public folders to Exchange Online](migrate-to-exchange-online.md), or [Migrate your public folders to Microsoft 365 Groups](https://docs.microsoft.com/exchange/collaboration/public-folders/migrate-to-office-365-groups).
 
 ### What are the supported public folder migration scenarios?
 
