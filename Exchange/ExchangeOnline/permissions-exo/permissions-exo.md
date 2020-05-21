@@ -119,11 +119,10 @@ The following table lists the Office 365 roles and the Exchange Online role grou
 
 |**Office 365 role**|**Exchange Online role group**|
 |:-----|:-----|
-|Global administrator|Organization Management <br/><br/> **Note**: The Global administrator role and the Organization Management role group are tied together using a special Company Administrator role group. The Company Administrator role group is managed internally by Exchange Online and can't be modified directly.|
-|Billing administrator|No corresponding Exchange Online role group.|
-|Password administrator|Help Desk administrator.|
-|Service administrator|No corresponding Exchange Online role group.|
-|User management administrator|No corresponding Exchange Online role group.|
+|Global admin|Organization Management <br/><br/> **Note**: The Global admin role and the Organization Management role group are tied together using a special Company Administrator role group. The Company Administrator role group is managed internally by Exchange Online and can't be modified directly.|
+|Exchange admin|Organization Management <br/><br/> **Note**: The Exchange admin role and the Organization Management role group are tied together using a special Exchange Service Administrator role group. The Exchange Service Administrator role group is managed internally by Exchange Online and can't be modified directly.|
+|Helpdesk admin|View-Only Organization Management <br/><br/> **Note**: The Helpdesk admin role and the View-Only Organization Management role group are tied together using a special Helpdesk Administrator role group. The Helpdesk Administrator role group is managed internally by Exchange Online and can't be modified directly.|
+|Security admin|Security Administrator <br/><br/> **Note**: The Security admin role and the Security Administrator role group are tied together using a special Security Administrator role group. The Security Administrator role group is managed internally by Exchange Online and can't be modified directly.|
 
 For a description of the Exchange Online role groups, see the table "Built-in role groups" in [Role groups](#role-groups).
 
