@@ -29,7 +29,7 @@ By default, plus addressing support is disabled in Exchange Online. Since Exchan
 **You can't enable plus addressing in the Exchange admin center (EAC); you can only enable it through Exchange Online PowerShell**. 
 
 >[!NOTE]
-> Plus addresses are only supported for mailboxes and Groups. 
+> Plus addresses are only supported for mailboxes and groups located in Exchange Online. They are not supported in Exchange hybrid environments.
 
 ## Enable plus addressing in your Exchange Online organization
 
